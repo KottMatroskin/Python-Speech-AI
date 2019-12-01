@@ -170,7 +170,7 @@ class Speech_AI:
                     statement = statement.replace('слушать', '')
                     statement = statement.replace('хочу', '')
                     statement = statement.strip()
-                    self.openurl('https://www.google.com/search?q=слушать&q=' + statement, "Нажмите плэй")
+                    self.openurl('https://www.google.com/search?q=слушать&q=' + statement, "Нажмите играть")
                 if ((statement.find("работа") != -1) or (statement.find("работу") != -1) or (
                         statement.find("искать") != -1)):
                     statement = statement.replace('работа', '')
